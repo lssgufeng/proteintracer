@@ -1,0 +1,24 @@
+# This file is read by the source code management system Mercurial to denote
+# the files which are not intended to be included in the repository and are
+# therefore to be ignored 
+
+# switch to regexp syntax.
+syntax: glob
+
+# exclude backup files
+*.orig
+
+# exclude build directory
+build/*
+
+# exclude build directory
+vim/*
+*.swp
+
+# exclude generated Visual C++ files and library dependencies
+vc2005/dependencies/*
+vc2005/Debug/*
+vc2005/Release/*
+vc2005/*.user
+vc2005/*.ncb
+vc2005/*.suo
